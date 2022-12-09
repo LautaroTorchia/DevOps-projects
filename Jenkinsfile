@@ -15,7 +15,7 @@ pipeline {
         CENTRAL_REPO = "vprofile-maven-dependencies"
         NEXUSIP = "192.168.56.25"
         NEXUSPORT = "8081"
-        NEXUS-GRP-REPO = "vprofile-group"
+        NEXUS-GRP-REPO="vprofile-group"
         NEXUS_LOGIN = "nexuslogin"
     }
 	
