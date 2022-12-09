@@ -4,9 +4,9 @@ pipeline {
 
     tools {
         maven "MAVEN3"
-        jdk "JDK8"
+       /* jdk "JDK8" */
     }
-    
+
     environment {
         SNAP_REPO= "vprofile-snapshot"
         NEXUS_USER= "admin"
