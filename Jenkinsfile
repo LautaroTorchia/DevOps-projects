@@ -40,7 +40,7 @@ pipeline {
                 sh "mvn checkstyle:checkstyle"
             }
         }
-        /* stage("Sonar Scanner Analysis"){
+         stage("Sonar Scanner Analysis"){
             environment{
                 scannerHome= tool "${SONARSCANNER}"
             }
@@ -56,7 +56,7 @@ pipeline {
                     -Dsonar.java.checkstyle.reportPaths=target/checkstyle-result.xml'''
                 }
              }
-        }  */
+        }  
         stage("Publish to Nexus Repository Manager") {
             steps {
                 script {
